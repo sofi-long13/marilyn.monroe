@@ -103,6 +103,10 @@ p::selection{
     color: #ffffff;
 
 }
+li::selection{
+    background-color: #95362a;
+    color: #ffffff;
+}
 
 
 p{
@@ -323,6 +327,18 @@ h2{
     
     }
 
-  
+
+}
+@media(max-width:884px) {
+    #home{
+        background-image: url(https://cdn.pixabay.com/photo/2016/03/21/15/10/marilyn-monroe-1270659_1280.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        text-align: center;
+        flex-direction: column;justify-content: center;
+        background-position: center ;
+    }
 
 }
