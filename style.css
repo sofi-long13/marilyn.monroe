@@ -1,0 +1,328 @@
+@font-face {
+    font-family: titulo;
+    src: url(./mister_grape/Mister\ Grape\ -\ Personal\ Use.otf);
+}
+
+@font-face {
+    font-family: subtitulo;
+    src: url(./holen_vintage/Holen\ Vintage.otf);
+}
+
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    padding: 25px 0;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 0 30px;
+
+}
+
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 15px 0;
+    transition: 0.2s;
+}
+
+nav ul li a:hover{
+    color: rgb(88, 6, 21);
+    font-size: 1.5rem;
+    
+}
+
+#home{
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/21/15/10/marilyn-monroe-1270659_1280.png);
+    height: 170vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    flex-direction: column;justify-content: center;
+
+
+}
+
+#home h1{
+    font-size: 6rem;
+    font-family: titulo;
+    padding: 25px;
+    padding-top: 15px;
+    color: #000000;
+    transition: 0.3s;
+
+}
+#home h1:hover{
+    color: #6f0a0a;
+    font-size: 10rem;
+
+}
+
+
+#home p{
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#home p:hover{
+    font-size: 2.5rem;
+    font-family:subtitulo ;
+    color: #430f0f;
+}
+
+
+h1::selection{
+    background-color: rgb(149, 65, 19);
+    color: #ffffff;
+}
+
+h2::selection{
+    background-color: rgb(144, 43, 3);
+    color: #ffffff;
+}
+p::selection{
+    background-color: rgb(221, 80, 37);
+    color: #ffffff;
+
+}
+
+
+p{
+    text-align: justify;
+    padding: 40px;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+
+}
+.parallax1{
+    background-image: url(https://www.observo.com.br/uploads/images/202408/image_750x_66b0c9495e58b.jpg);
+   
+}
+.parallax2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSlYsOWJVKwws-GFIRmRyJ4nyfXwMexsmel6T5V8SJNSHBJgFD-oqynxP6s2f3d-9gornCu215vW2JwY4U);
+}
+
+.parallax3{
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/gettyimages-3224054-1664363509.jpg?crop=1xw:0.9960594119430131xh;center,top&resize=640:*);
+}
+
+.parallax4{
+    background-image: url(https://miro.medium.com/v2/resize:fit:3840/1*S5RvH0HhpPeZA3kNzuIq8A.jpeg);
+}
+
+
+.parallax{
+    height: 120vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center ;
+}
+
+.ftr{
+    text-align: justify;
+    background-color: #070606;
+    height: 100px;
+    color: #ffffff;
+    font-size: 1.3rem;
+    padding: 25px;
+}
+
+.filmes2{
+    color: #6f0a0a;
+    line-height: 3rem;
+    margin: 20px;
+    list-style-type: circle;
+}
+
+.premions2{
+    color: #6f0a0a;
+    line-height: 3rem;
+    margin: 20px;
+    list-style-type: circle;
+}
+
+h2{
+    text-align: center;
+    font-family: subtitulo;
+}
+
+@media(max-width:320px) {
+    #home{
+        background-image: url(https://cdn.pixabay.com/photo/2016/03/21/15/10/marilyn-monroe-1270659_1280.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        text-align: center;
+        flex-direction: column;justify-content: center left;
+    }
+
+    #home h1{
+        font-size: 3rem;
+    }
+
+    #home p{
+        font-size: 1rem;
+    }
+
+    #home h1:hover{
+        font-size: 3.7rem;
+    }
+
+    #home p:hover{
+        font-size: 1.5rem;
+    }
+
+
+    .parallax{
+        height: 80vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center ;
+    }
+
+
+    .nav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #000;
+        padding: 9px 0;
+    
+    }
+    
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        height: 2px;
+    }
+    
+    nav ul li{
+        margin: 0 1.5px;
+        font-size: 0.1rem;
+        padding-top: 0;
+    }
+
+    footer{
+        text-align: center;
+        background-color: #000000;
+        height:90px;
+        color: #ffffff;
+        font-size: 1.3rem;
+        padding: 0;
+        padding-bottom: 0;
+    }
+
+    p{
+        text-align: justify;
+        padding: 40px;
+        font-size: 1rem;
+        line-height: 1.2rem;
+    
+    }
+  
+
+}
+
+@media(max-width:430px) {
+    #home{
+        background-image: url(https://cdn.pixabay.com/photo/2016/03/21/15/10/marilyn-monroe-1270659_1280.png);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        text-align: center;
+        flex-direction: column;justify-content: center;
+        background-position: center ;
+    }
+
+    #home h1{
+        font-size: 3rem;
+    }
+
+    #home p{
+        font-size: 1rem;
+    }
+
+    #home h1:hover{
+        font-size: 3.7rem;
+    }
+
+    #home p:hover{
+        font-size: 1.5rem;
+    }
+
+
+    .parallax{
+        height: 80vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center ;
+    }
+
+
+    .nav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #000;
+        padding: 10px 0;
+    
+    }
+    
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        height: 2px;
+    }
+    
+    nav ul li{
+        margin: 0 7px;
+        font-size: 1rem;
+        padding-top: 0;
+    }
+
+    footer{
+        text-align: center;
+        background-color: #000000;
+        height:90px;
+        color: #ffffff;
+        font-size: 1.3rem;
+        padding: 0;
+        padding-bottom: 0;
+    }
+
+    p{
+        text-align: justify;
+        padding: 40px;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    
+    }
+
+  
+
+}
